@@ -2,7 +2,7 @@
   "name": "listz",
   "version": "1.0.0",
   "description": "Create, parse and validate listz objects.",
-  "main": "listz.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
