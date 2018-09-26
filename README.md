@@ -13,13 +13,17 @@ Install the package in your project:
 npm install listz@0.0.1
 ```
 
+To use it in your code:
+
+```javascript
+let Listz = require("listz");
+```
+
 ## Usage
 
 1. Check if a serialized Listz object is valid.
 
 ```javascript
-let Listz = require("listz");
-
 let rawListz;
 
 fs.readFile("./someListz.json", "utf8", (err, data) => {
@@ -32,8 +36,6 @@ console.log(Listz.isValid(rawListz));
 2. Parse a serialized Listz object.
 
 ```javascript
-let Listz = require("listz");
-
 let newListz;
 
 fs.readFile("./someListz.json", "utf8", (err, data) => {
@@ -44,8 +46,6 @@ fs.readFile("./someListz.json", "utf8", (err, data) => {
 3. Check if a serialized Lists object is valid and parse it at the same time.
 
 ```javascript
-let Listz = require("listz");
-
 let validationResult;
 
 fs.readFile("./someListz.json", "utf8", (err, data) => {
