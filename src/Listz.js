@@ -40,10 +40,10 @@ class Listz {
 
     // First, check if the JSON is parseable in the first place.
     try {
-      tempParsed = JSON.stringify(json);
+      tempParsed = JSON.parse(json);
     }
     catch(error) {
-      return new Error(`No valid JSON: ${error}`);
+      throw new Error(`No valid JSON: ${error}`);
     }
 
     // Extract basic info.
