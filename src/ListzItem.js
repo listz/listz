@@ -18,7 +18,7 @@ class ListzItem {
       this.name = listzItemObject.name;
       this.description = listzItemObject.description;
       this.image = listzItemObject.image;
-      this.link = listzItemObject.image;
+      this.link = listzItemObject.link;
 
       // Check if the basic info is loaded correctly.
       if (Utilities.isUndefinedOrNull(this.name))         throw new Error("Listz item name is not defined.");
@@ -38,4 +38,4 @@ class ListzItem {
 
 }
 
-module.exports = { ListzItem }
+module.exports = ListzItem
