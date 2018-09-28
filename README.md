@@ -20,7 +20,7 @@ You can take a look at the (listz.json)[listz.json] file, which is a simple json
 Install the package in your project:
 
 ```shell
-npm install listz@0.0.1
+npm install listz@0.0.2
 ```
 
 To use it in your code:
