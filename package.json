@@ -4,7 +4,7 @@
   "description": "Create, parse and validate listz objects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/listz/listz/issues"
   },
-  "homepage": "https://github.com/listz/listz#readme"
+  "homepage": "https://github.com/listz/listz#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
