@@ -11,9 +11,13 @@ The `listz` package is used for the [Listz organisation on GitHub](https://githu
 
 [Listz](https://www.github.com/listz) is a collection of repositories that represent a certain type of technology or subject. Each repository contains a list where GitHub users can add items by cloning and creating pull requests. Each list can be queried using the Listz app, which is still under development as of now.
 
+## What is a 'Listz'
+
+A Listz is just a javascript object, conforming to a certain [format](listz.json). The serialized `Listz` object can be parsed by the listz-app, which users can use to explore the contents.
+
 ## How does a serialized Listz object look like?
 
-You can take a look at the (listz.json)[listz.json] file, which is a simple json string representing a `Listz` object containing one item.
+You can take a look at the [listz.json](listz.json) file, which is a simple json string representing a `Listz` object containing one item.
 
 ## Installation
 
