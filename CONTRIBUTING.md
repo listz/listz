@@ -4,7 +4,7 @@ First of all: thank you for your intrest in contributing to Listz! 🎉
 
 ## Creating a new Listz
 
-If you have a nice idea of a collection to add, you can request a new Listz repository here. When a new Listz repository is created, it is automatically added to the [master list](https://github.com/listz/listz-all) and linked to our CI tools.
+If you have a nice idea of a collection to add, you can request a new Listz repository [here](https://github.com/listz/listz/issues/new?template=request-a-new-listz-repository.md). When a new Listz repository is created, it is automatically added to the [master list](https://github.com/listz/listz-all) and linked to our CI tools.
 
 ## Updating an existing Listz
 
