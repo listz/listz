@@ -9,3 +9,10 @@ If you have a nice idea of a collection to add, you can request a new Listz repo
 ## Updating an existing Listz
 
 If you think that an existing Listz is lacking content, you can always fork the repo, edit the content and send a pull request. Before doing so, please run the [test command](https://github.com/listz/listz-template#how-to-use) so that your changes do not break the working version.
+
+## Steps to take for moderators when creating a new Listz
+
+1. Create the new repository in the Listz organistation.
+2. Enable `gh-pages` for the new repository.
+3. Add the new repository in Travis-CI.
+4. Run the [new repository script](https://github.com/listz/listz-template/blob/master/new.sh).
