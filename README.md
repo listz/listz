@@ -80,4 +80,4 @@ console.log(validationResult.result);
 
 Listz objects are actually just simple `json` objects, but we need these binaries to automate the validation. For instance, when a contributor adds a new list-item to a `listz.json`, we want to check if the serialized Listz object is still valid before allowing the pull request to be merged. 
 
-To checkout the `Listz` format, check out the `listz.json` file in the root of this repository.
+To checkout the `Listz` format, check out the [`listz.json`](listz.json) file in the root of this repository.
