@@ -16,3 +16,4 @@ If you think that an existing Listz is lacking content, you can always fork the 
 2. Enable `gh-pages` for the new repository.
 3. Add the new repository in Travis-CI.
 4. Run the [new repository script](https://github.com/listz/listz-template/blob/master/new.sh).
+5. Add the new repository to the master Listz.
