@@ -1,7 +1,6 @@
 'use strict'
 
 let ListzItem = require("./ListzItem");
-let Utilities = require("./Utilities");
 
 /**
  * Class representing a Listz object.
@@ -26,7 +25,7 @@ class Listz {
       this.items = new Array();
 
     // If JSON was passed, try to parse the empty Listz object.
-    if (!Utilities.isUndefinedOrNull(inputJson)) {
+    if (typeof inputJson != "undefined" || inputJson != null) {
       this.parse(inputJson);
     }
   }
@@ -53,13 +52,13 @@ class Listz {
     this.image        = tempParsed.image;
 
     // Check if basic info passed.
-    if (Utilities.isUndefinedOrNull(this.version))     throw new Error("Version is not defined.");
-    if (Utilities.isUndefinedOrNull(this.name))        throw new Error("Name is not defined.");
-    if (Utilities.isUndefinedOrNull(this.description)) throw new Error("Description is not defined.");
-    if (Utilities.isUndefinedOrNull(this.image))       throw new Error("Image is not defined.");
+    if (typeof this.version == "undefined" || this.version == null)     throw new Error("Version is not defined.");
+    if (typeof this.name == "undefined" || this.version == null)        throw new Error("Name is not defined.");
+    if (typeof this.description == "undefined" || this.description == null) throw new Error("Description is not defined.");
+    if (typeof this.image == "undefined" || this.image == null)       throw new Error("Image is not defined.");
 
     // Check if a list-items are present.
-    if (Utilities.isUndefinedOrNull(tempParsed.items)) throw new Error("Items field not defined.");
+    if (typeof tempParsed.items == "undefined" || this.image == null) throw new Error("Items field not defined.");
 
     // Check if list-items is an array.
     if (!Array.isArray(tempParsed.items)) throw new Error("Items field is not an array.");
