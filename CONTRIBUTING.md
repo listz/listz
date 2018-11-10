@@ -13,7 +13,7 @@ If you think that an existing Listz is lacking content, you can always fork the 
 ## Steps to take for moderators when creating a new Listz
 
 1. Create the [new repository in the Listz organistation](https://github.com/organizations/listz/repositories/new).
-2. Add the new repository in Travis-CI.
+2. Add the [new repository in Travis-CI](https://travis-ci.org/organizations/listz/repositories).
 3. Run the [new repository script](https://github.com/listz/listz-template/blob/master/new.sh), fix possible mistakes and push new content to the previously created repo.
 4. Enable `gh-pages` for the new repository.
 5. Add the new repository to the [master Listz](https://github.com/listz/listz-all).
