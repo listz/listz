@@ -7,19 +7,19 @@
 
 The `listz` package is used for the [Listz organisation on GitHub](https://github.com/listz) to parse and validate the lists used in the webapplication.
 
-## What is Listz
+## 🤔 What is Listz
 
 [Listz](https://www.github.com/listz) is a collection of repositories that represent a certain type of technology or subject. Each repository contains a list where GitHub users can add items by cloning and creating pull requests. Each list can be queried using the Listz app, which is still under development as of now.
 
-## What is a 'Listz'
+## 🤔 What is a 'Listz'
 
 A Listz is just a javascript object, conforming to a certain [format](listz.json). The serialized `Listz` object can be parsed by the listz-app, which users can use to explore the contents.
 
-## How does a serialized Listz object look like?
+## 👍 How does a serialized Listz object look like?
 
 You can take a look at the [listz.json](listz.json) file, which is a simple json string representing a `Listz` object containing one item.
 
-## Installation
+## 🚀 Installation
 
 Install the package in your project:
 
@@ -33,7 +33,7 @@ To use it in your code:
 let Listz = require("listz");
 ```
 
-## Usage
+## 🔧 Usage
 
 ### Start from an empty Listz object.
 
@@ -76,8 +76,12 @@ console.log(validationResult.isValid);
 console.log(validationResult.result);
 ```
 
-## Valid Listz json
+## 📓 Valid Listz json
 
 Listz objects are actually just simple `json` objects, but we need these binaries to automate the validation. For instance, when a contributor adds a new list-item to a `listz.json`, we want to check if the serialized Listz object is still valid before allowing the pull request to be merged. 
 
 To checkout the `Listz` format, check out the [`listz.json`](listz.json) file in the root of this repository.
+
+## 🤝 How to Contribute
+
+Listz grows and is maintained by you, so if you want to update a listz, check out the [CONTRIBUTING.md](https://github.com/listz/listz/blob/master/CONTRIBUTING.md) to see how!
