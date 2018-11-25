@@ -8,7 +8,8 @@ If you have a nice idea of a collection to add, you can request a new Listz repo
 
 ## Updating an existing Listz
 
-If you think that an existing Listz is lacking content, you can always fork the repo, edit the content and send a pull request. Before doing so, please run the [test command](https://github.com/listz/listz-template#how-to-use) so that your changes do not break the working version.
+If you think that an existing Listz is lacking content, you can always fork the repo, edit the content and send a pull request.
+After reviewing the pull request, we will add you as a collaborator and than you can accept and merge the pull request yourself, so that your contributions will be added as a commit in the original repo. Before doing so, please run the [test command](https://github.com/listz/listz-template#how-to-use) so that your changes do not break the working version.
 
 ## Steps to take for moderators when creating a new Listz
 
